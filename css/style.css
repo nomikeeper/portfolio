@@ -1,0 +1,150 @@
+body{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	background:#2a2a2a;
+}
+a,a.visited,a:hover
+{
+	text-decoration:none;
+	color:#4a4a4a;
+}
+.container{
+	width:960px;
+	margin: 50px auto;
+	overflow:hidden;
+	background:#8a8a8a;
+}
+
+header{
+	overflow:hidden;
+	padding:25px;
+	background:#111;
+}
+header .image-box{
+	overflow: hidden;
+	float:left;
+	border-radius:75px;
+	border: 1px solid #fff;
+	width:95px;
+	height: 95px
+}
+header .image-box img{
+	width:100%;
+	height:100%;
+}
+header .name{
+	float:left;
+	margin-left: 25px;
+}
+header .name h3,
+header .name h2{
+	margin-top:10px;
+	display:block;
+	font-size:28px;
+	color:#e8e8e8;
+}
+header .name h3{
+	font-size:16px;
+	font-style: italic;
+}
+/************ header ended ********************/
+
+section{
+
+}
+section .Title{
+	padding:10px 0;
+	border-top: 1px solid #444;
+	border-bottom: 1px solid #444;
+	background: #333;
+}
+section .Title span{
+	display:block;
+	font-size:18px;
+	line-height:24px;
+	margin-left:40px;
+	color:#ccc;
+}
+
+.exp-list
+{
+	background:#fff;
+}
+.exp-list .mini-container
+{
+
+	width:80%;
+	margin: 0 auto;
+	padding:50px 0;
+}
+.exp-list h2
+{
+	color:#2a2a2a;
+	font-size:26px;
+	text-shadow:1px 1px 1px #fff;
+	text-align: center;
+}
+.exp-list .showreel{
+
+	padding:25px 0;
+	border-bottom: 1px dashed #222;
+}
+
+.exp-list .showreel ul
+{
+	margin-top:25px;
+	padding-left:25px;
+	list-style: square;
+}
+.exp-list .showreel ul h3
+{
+	font-size:22px;
+	line-height:26px;
+	padding:5px 0;
+}
+.exp-list .showreel ul li
+{
+	line-height:22px;
+	font-size:16px;
+	color:#222;
+}
+.exp-list .showreel .description{}
+.exp-list .showreel .description h3{
+	text-align:center;
+	font-size:24px;
+	color:#222;
+}
+.fotorama{
+	margin-top:50px;
+}
+
+.fotorama img{
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;	
+}
+
+.modeling{
+	margin-top:50px;
+}
+.titles
+{
+	text-align: center;
+	font-style: italic;
+	font-family: tahoma;
+	font-size:18px;
+	line-height: 24px;
+	padding:10px 0;
+	text-decoration: underline;
+}
+.source_codes{
+    font-size: 16px;
+    text-decoration: underline;
+}
+#copyright p{
+	padding:5px 15px;
+}
+#copyright p a{
+	color:#2a2a2a;
+	text-decoration:underline;
+}
